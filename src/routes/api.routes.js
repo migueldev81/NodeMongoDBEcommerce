@@ -16,7 +16,7 @@ import {
   deleteProduct,
 } from '../controllers/product.controller.js';
 
-router.get('/products', getProducts);
+router.get('/product', getProducts);
 router.get('/product/:productId', getProduct);
 router.post('/product', addProduct);
 router.put('/product/:productId', updateProduct);
@@ -25,8 +25,8 @@ router.delete('/product/:productId', deleteProduct);
 //Auth
 import { signup, login } from '../controllers/auth.controller.js';
 
-router.post('/signup', signup);
-router.post('/login', login);
+router.post('/auth/signup', signup);
+router.post('/auth/login', login);
 
 //User
 import {
@@ -37,11 +37,11 @@ import {
   deleteUser,
 } from '../controllers/user.controller.js';
 
-router.get('/', getUsers);
-router.get('/find/:userId', getUser);
-router.get('/stats', getUserStats);
-router.put('/:userId', updateUser);
-router.delete('/:userId', deleteUser);
+router.get('/user', getUsers);
+router.get('/user/find/:userId', getUser);
+router.get('/user/stats', getUserStats);
+router.put('/user/:userId', updateUser);
+router.delete('/user/:userId', deleteUser);
 
 //Order
 import {
@@ -53,12 +53,12 @@ import {
   deleteOrder,
 } from '../controllers/order.controller.js';
 
-router.get('/', getOrders);
-router.get('/:userId', getUserOrders);
-router.get('/income', getMonthlyIncome);
-router.post('/', addOrder);
-router.put('/:orderId', updateOrder);
-router.delete('/:orderId', deleteOrder);
+router.get('/order', getOrders);
+router.get('/order/:userId', getUserOrders);
+router.get('/order/income', getMonthlyIncome);
+router.post('/order', addOrder);
+router.put('/order/:orderId', updateOrder);
+router.delete('/order/:orderId', deleteOrder);
 
 //Cart
 import {
@@ -69,10 +69,10 @@ import {
   deleteCart,
 } from '../controllers/cart.controller.js';
 
-router.get('/', getAllCart);
-router.get('/find/:userId', getUserCart);
-router.post('/', addCart);
-router.put('/:cartId', updateCart);
-router.delete('/:cartId', deleteCart);
+router.get('/cart', getAllCart);
+router.get('/cart/find/:userId', getUserCart);
+router.post('/cart', addCart);
+router.put('/cart/:cartId', updateCart);
+router.delete('/cart/:cartId', deleteCart);
 
 export default router;
