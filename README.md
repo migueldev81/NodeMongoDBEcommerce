@@ -26,16 +26,16 @@
         </tr>
    </table>
 
-## Database | SQL
+## Database | NoSQL
  ![database](./resources/db-design.png)
 ## Local Development
 ### Requerimients
 
 Node.js
-[https://www.python.org/downloads/](https://www.python.org/downloads/)
+[https://nodejs.org/en/download](https://nodejs.org/en/download)
 
 MongoDB
-[https://www.mysql.com/downloads/](https://www.mysql.com/downloads/)
+[https://www.mongodb.com/](https://www.mongodb.com/)
 
 ### Git Repository
 ```
