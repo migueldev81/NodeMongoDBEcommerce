@@ -43,7 +43,7 @@ git clone https://github.com/migueldev81/node-ecommerce
 ```
 ### Variables Enviroment (.env)
 ````
-MONGODB_URI=
+DATABASE_URL=
 ````
 
 ### Start Project
