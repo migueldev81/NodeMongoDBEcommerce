@@ -44,6 +44,7 @@ git clone https://github.com/migueldev81/node-ecommerce
 ### Variables Enviroment (.env)
 ````
 DATABASE_URL=
+JWT_SEC=
 ````
 
 ### Start Project
