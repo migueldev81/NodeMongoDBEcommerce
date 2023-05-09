@@ -27,7 +27,7 @@
    </table>
 
 ## Database | NoSQL
- ![database](./resources/db-design.png)
+ ![database](./db-design.png)
 ## Local Development
 ### Requerimients
 
