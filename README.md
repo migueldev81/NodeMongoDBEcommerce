@@ -3,7 +3,11 @@
         <caption></caption>
         <tr>
             <th>NAME</th>
-            <td>API: Ecommerce</td>
+            <td>API Ecommerce</td>
+        </tr>
+     <tr>
+            <th>TYPE</th>
+            <td>API</td>
         </tr>
         <tr>
             <th>SUMMARY</th>
