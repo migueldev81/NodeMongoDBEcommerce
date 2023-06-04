@@ -21,7 +21,7 @@
         </tr>
         <tr>
             <th>LOCALHOST</th>
-            <td><a href="http://localhost:3000/api/v1" target="_blank">http://localhost:3000/api/v1</a>
+            <td><a href="http://localhost:3000/api/" target="_blank">http://localhost:3000/api/</a>
             </td>
         </tr>
    </table>
